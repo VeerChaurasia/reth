@@ -18,6 +18,10 @@ pub mod hash_builder;
 mod constants;
 pub use constants::*;
 
+/// In-memory hashed state.
+mod hashedstate;
+pub use hashedstate::*;
+
 mod account;
 pub use account::TrieAccount;
 
